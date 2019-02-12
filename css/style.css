@@ -1,0 +1,339 @@
+body {
+    width: 1060px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #333333;
+}
+
+.busca button {
+    background-image: url(../img/busca.png);
+    background-repeat: no-repeat;
+    border: none;
+    width: 20px;
+    height: 20px;
+    text-indent: -9999px;
+}
+
+.busca input {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.busca, .menu_departamentos {
+    float: left;
+    background-color: #DCDCDC;
+    font-weight: bold;
+    margin-right: 0px;
+    width: 280px;
+    border: 1px solid #ccc;
+}
+
+.busca h2, .busca form, .menu_departamentos h2{
+    margin: 10px;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 1060px;
+}
+
+.destaque {
+    margin-top: 10px;
+    
+    
+}
+    
+figure {
+    background-color: #f2eded;
+    border: 1px solid #ccc;
+    margin: 0px 30px;
+    padding: 15px;
+    float: right;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+figure #distr {
+    width: 300px;
+    height: 200px;
+}
+
+h1, h2 {
+    clear: both;
+}
+
+h1 {
+    font-size: 26px;
+    font-style: bold;
+    background-image: url(../img/sobre-background.jpg);
+    padding: 10px;
+    margin-top: 35px;
+}
+
+h1 + p{
+    text-indent: 0px;
+    }
+
+h2 + p{
+    text-indent: 0px;
+    }
+
+h2 {
+    border-bottom: 2px solid #333;
+    margin-top: 30px;
+}
+
+header {
+    position: relative;
+    
+}
+
+.imagem-destaque{
+    float: left;
+    margin-top: -120px;
+    margin-right: -30px;
+    margin-left: -15px;
+}
+
+.imagem-destaque img{
+    width: 730px;
+    height: 550px
+}
+
+.mais-vendidos{
+    float: right;
+    background-color: #DCDCF5;
+    
+}
+
+.menu_opcoes ul li {
+    list-style: none;
+    display:inline;
+    margin-left: 0px;
+    
+    
+}
+
+.menu_opcoes a{
+    padding: 0 30px;
+}
+
+.menu_opcoes a:hover {
+    background-color:#CCC;
+ }
+
+.menu_opcoes a:active {
+    color:	#867DC6;
+}
+
+.menu_departamentos {
+    clear: left;
+    text-transform: uppercase;
+    margin-top: 0px;
+    padding-bottom: 20px;    
+}
+
+.menu_departamentos ul{
+    margin-left: -35px;
+    
+}
+.menu_departamentos a{
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+.menu_departamentos a:hover{
+    background-color:#CCC;
+}
+
+.menu_departamentos a:active {
+    color:	#867DC6;
+}
+
+.menu_departamentos ul li{
+    background-color: #FFF;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+    list-style: none;
+    width: 250px;
+}
+
+.menu_departamentos li ul{
+    display: none;
+}
+
+.menu_departamentos li:hover ul{
+    display: block;
+}
+
+.menu_departamentos ul ul li{
+    background-color: #DCDCDC;
+    display: block;
+}
+
+.menu_departamentos li li a{
+    display: block;
+    width: 210px;
+}
+
+.menu_departamentos li li{
+    width: 220px;
+}
+
+.menu_departamentos li li a:before{
+    content: '- ';
+}
+
+.menu_opcoes {
+    position: absolute;
+    bottom: -20px;
+    right: 0px;
+}
+
+.menu_opcoes a{
+    color: #003366;
+}
+
+.menu_opcoes ul{
+    font-size: 15px;
+    text-align: right;
+    padding: 10px;
+}
+.miniatura {
+    width: 90px;
+    height: 95px;
+}
+
+.novidades {
+    float: left;
+    background-color: #F5DCDC;
+    
+}
+
+p {
+    padding: 0px 45px;
+    text-indent: 15px;
+    text-align: justify;
+}
+
+p::first-letter{
+    font-weight: bold;
+}
+ 
+.painel {
+    margin: 15px 0;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    padding: 10px;
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px #999;
+    box-shadow: inset 1px 1px 4px #999;     
+}
+
+.painel figure {
+    margin: 2px;
+}
+
+.painel ol{
+    margin-left: 30px;
+}
+
+.painel li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 80px;
+    margin: 5px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    padding: 5px;
+}
+
+.painel h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-shadow: 3px 2px 2px #FFF;
+}
+
+.painel a{
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    padding: 20px 0;
+    color: #777;
+    margin: 30px 0px;
+    padding: 30px 0px;
+    clear: both;
+    position: relative;
+    background-image: url(../img/fundo-rodape.png);
+    
+}
+
+footer img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+
+footer .container{
+    
+}
+
+.sacola {
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 5px;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 35px;
+    width: 140px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    vertical-align: middle;
+}
+
+.social{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+
+.social img{
+    width: 42px;
+    height: 42px;
+}
+
+.social a{
+    width: 42px;
+    height: 42px;
+    display: block;
+}
+
+.social li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+
+
+ul li a {
+    text-decoration: none;
+}
